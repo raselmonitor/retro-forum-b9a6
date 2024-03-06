@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:wght@100..900&display=swap');
+
+
+.mulish-font {
+    font-family: "Mulish", sans-serif;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: 00%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.background{
+    background-image: url('images/bgbanner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
